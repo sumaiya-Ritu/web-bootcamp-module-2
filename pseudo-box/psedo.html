@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: indigo;
+        }
+        h1:hover{
+            color: lightgreen;
+            background-color: lightsalmon;
+            font-weight: 700;
+
+        }
+        .mid:focus{
+            color: mediumblue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: mediumvioletred;
+        }
+        li{
+            color: peru;
+        }
+        li:first-child{
+            color: rosybrown;
+        }
+        li:last-child{
+            background-color: black;
+        }
+        li:nth-child(2n){
+          color: darkorchid;
+          background-color: darkslategray;
+        }
+        li:nth-child(2n+2){
+            background-color: darkred;
+        }
+        h3::before{
+            content: 'Hello ';
+        }
+        h3::after{
+            content: ' gelo';
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="mid" type="text">
+    <input type="text"><br>
+    <a href="http://google.com">Google e jaw</a>
+    <a href="http://programming-hero.com">Programmign hero</a>
+    <br>
+    <h3>middle sizeheader1</h3>
+    <h3>middle sizeheader2</h3>
+    <h3>middle sizeheader3</h3>
+    <h3>middle sizeheader4</h3>
+    <h3>middle sizeheader5</h3>
+    <h3>middle sizeheader6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Deepika</li>
+        <li>Kareena</li>
+        <li>Deepika</li>
+        <li>Kareena</li>
+        <li>Katrina</li>
+        <li>Anushka</li>
+        <li>Popy</li>
+        <li>Katrina</li>
+        <li>Anushka</li>
+        <li>Popy</li>
+    </ul>
+</body>
+</html>
